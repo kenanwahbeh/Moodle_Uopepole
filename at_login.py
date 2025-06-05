@@ -6,7 +6,6 @@ load_dotenv()
 
 
 token = os.getenv("TEST_TOKEN")
-print(f"Loaded token: {token}")
 
 # 🔐 ضع التوكن هنا مباشرة أو استورده من قاعدة البيانات
 
