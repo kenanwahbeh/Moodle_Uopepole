@@ -1,12 +1,14 @@
 import requests
-import json
-# 🔐 ضع التوكن هنا مباشرة أو استورده من قاعدة البيانات
 from dotenv import load_dotenv
 import os
+import json
 load_dotenv()
 
-# إعدادات
+
 token = os.getenv("TEST_TOKEN")
+print(f"Loaded token: {token}")
+
+# 🔐 ضع التوكن هنا مباشرة أو استورده من قاعدة البيانات
 
 endpoint = "https://my.uopeople.edu/webservice/rest/server.php"
 
