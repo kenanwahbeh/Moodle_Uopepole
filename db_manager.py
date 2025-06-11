@@ -16,8 +16,10 @@ class DBManager:
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 username TEXT UNIQUE,
                 password TEXT,
-                full_name TEXT,
-                phone TEXT,
+                firstname TEXT,
+                lastname TEXT,
+                userid INTEGER,     
+                userpictureurl TEXT,
                 moodle_token TEXT
             );
             CREATE TABLE IF NOT EXISTS SESSIONS (
